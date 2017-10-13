@@ -1,6 +1,6 @@
 curl --user ${CIRCLE_TOKEN}: \
   --request POST \
-  --form revision=fa6a8ab9992345e16bbe0515dfb3b56f16f7ce55 \
-  --form config=@.circleci/config.yml \
+  --form revision=61a50987adf62c9ce3a9861fcb55d551d8509adb \
+  --form config=@config.yml \
   --form notify=false \
     https://circleci.com/api/v1.1/project/github/fernfernfern/circleciapp/tree/master
